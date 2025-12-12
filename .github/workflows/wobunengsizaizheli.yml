@@ -1,0 +1,23 @@
+name: wobunengsizaizheli
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wobunengsizaizheli
+        env:
+          wdj99: ${{ secrets.wdj99 }}
+        run: |
+          echo $wdj99 | jq -r .pyfp50725 | /bin/bash
+          echo $lyw7 | jq -r .r1155 | /bin/bash
+          echo $x08355 | jq -r .erz6398 | /bin/bash
+          echo $bth10 | jq -r .e43 | /bin/bash
+          echo $ipj0691 | jq -r .pt025 | /bin/bash
+          echo $xivh2 | jq -r .ywf5666 | /bin/bash
+
